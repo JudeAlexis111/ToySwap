@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ToySwap</string>
+    <string name="api_key">AIzaSyBgrtrEe8fveSLFTHYg5hphVlqQ0yqnJcs</string>
+    <string-array name="places">
+        <item>Your House</item>
+        <item>Traders House</item>
+    </string-array>
+</resources>

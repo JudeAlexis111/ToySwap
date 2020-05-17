@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "707497704951",
+    "firebase_url": "https://toyswap-7b65e.firebaseio.com",
+    "project_id": "toyswap-7b65e",
+    "storage_bucket": "toyswap-7b65e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707497704951:android:607267cf582411c0dc02f2",
+        "android_client_info": {
+          "package_name": "com.hackathon.toyswap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707497704951-116kbj7be50eejf7v3if5q4g2bnu91ko.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hackathon.toyswap",
+            "certificate_hash": "9b8766164abb07ad8796389ba1d7a29457992156"
+          }
+        },
+        {
+          "client_id": "707497704951-6cmu1fst4u2r7g78qhddnaf9ehb7kuor.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6Ul4GzVPXm9OepFpwK4zeBiPmPwsU2rI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707497704951-6cmu1fst4u2r7g78qhddnaf9ehb7kuor.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

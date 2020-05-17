@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/listing_cards"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textColor="@color/places_text_white_alpha_87"
+        android:textAlignment="center"
+        android:text="Mouse"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/places_text_white_alpha_87"
+        android:textAlignment="center"
+        android:text="By Bude Alexis"
+        android:gravity="center_horizontal" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"/>
+
+    <ImageView
+        android:id="@+id/pictures"
+        android:layout_width="match_parent"
+        android:layout_height="490px"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/places_text_white_alpha_87"
+        android:textAlignment="center"
+        android:text="Cool Apple Mouse"
+        android:id="@+id/description"
+        android:gravity="center_horizontal" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/places_text_white_alpha_87"
+        android:text="Cool Apple Mouse"
+        android:paddingLeft="10dp"
+        android:id="@+id/tags"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/trade"
+            android:background="@drawable/sign_in_btn"
+            android:textColor="@color/places_text_white_alpha_87"
+            android:layout_gravity="center"
+            android:text="Trade"/>
+
+        <Space
+            android:layout_width="30dp"
+            android:layout_height="fill_parent"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/sign_in_btn"
+            android:textColor="@color/places_text_white_alpha_87"
+            android:layout_gravity="center"
+            android:id="@+id/cancelM"
+            android:text="Cancel"/>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+</LinearLayout>
